@@ -32,7 +32,7 @@ E como resposta dessa requisição é gerado um token e o status code 201
 }
 ```
 
-### Rota get/products
+### GET/products
 Essa rota lista todos os produtos atraves da url `http://localhost:3000/products`
 
 O retorno esperado é um json e o status code 200
@@ -60,7 +60,7 @@ O retorno esperado é um json e o status code 200
 ]
 ```
 
-### Rota post/products
+### POST/products
 Essa rota permite adicionar um novo produto atraves da url `http://localhost:3000/products`
 E espera que seja passado no body da requisição o json 
 
@@ -81,7 +81,7 @@ O retorno esperado é um json e o status code 201
   }
 ```
 
-### Rota get/orders
+### GET/orders
 Essa rota permite listar todas as orders atraves da url `http://localhost:3000/orders`
 
 O retorno esperado é um json e o status code 200
