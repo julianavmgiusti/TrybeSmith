@@ -1,8 +1,8 @@
 interface Product {
-    id?: number;
-    name: string;
-    amount: string;
-    orderId?: number | null;
+  id?: number;
+  name: string;
+  amount: string;
+  orderId?: number | null;
 }
 
-export default Product
+export default Product;
